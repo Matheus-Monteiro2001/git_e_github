@@ -98,8 +98,4 @@ git clone https://github.com/CAMINHO_PARA_A_PASTA_CRIADA_NO_GITHUB. git
 
 --para atualizar para a versao mais nova
 
-
-
-
-
 git pull
