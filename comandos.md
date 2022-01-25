@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////////////
 
-**--Inicializar repositorio vazio**
+**--Inicializar repositório vazio**
 
 git init
 
@@ -11,7 +11,7 @@ git init
 
 git add NOME_DO_ARQUIVO_QUE_VC_QUER_MANDAR
 
-**-> Nesse caso é adicionado tudo que esta no seu diretorio(pasta e conteudo dento da pasta)**
+**-> Nesse caso é adicionado tudo que está no seu diretório(pasta e conteúdo dentro da pasta)**
 
 git add .
 
@@ -59,7 +59,7 @@ git push -u origin main
 
 //////////////////////////////////////////////////////////////////
 
-**--Se realizou alteracoaes no projeto e deseja atualizar no repositorio**
+**--Se realizou alterações no projeto e deseja atualizar no repositório**
 
 git add .
 
@@ -71,13 +71,13 @@ git push origin main
 
 //////////////////////////////////////////////////////////////////
 
-**--Criar nova ramificacao do projeto(branches)**
+**--Criar nova ramificação do projeto(branches)**
 
 git checkout -b "NOME_DA_RAMIFICACAO"
 
 git add .
 
-git commit -m "MENSAGEM DO 3 COMMIT(RAMIFICACAO)"
+git commit -m "MENSAGEM DO 3 COMMIT(RAMIFICAÇÃO)"
 
 git push origin NOME_DA_RAMIFICACAO
 
@@ -89,16 +89,16 @@ git checkout NOME_DA_BRANCHE
 
 git merge NOME_DA_BRANCHE
 
-**--mandar todas as alteracoes**
+**--mandar todas as alterações**
 
 git push origin main
 
 //////////////////////////////////////////////////////////////////
 
-**--Clonar repositorio do github**
+**--Clonar repositório do github**
 
 git clone https://github.com/CAMINHO_PARA_A_PASTA_CRIADA_NO_GITHUB. git
 
-**--para atualizar para a versao mais nova**
+**--para atualizar para a veversão sao mais nova**
 
 git pull
